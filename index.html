@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="general.css">
+</head>
+
+<body>
+    <form id="loginForm">
+        <h3 class="h3_titulo_login">Sistema General de Atención</h3>
+        <div class="form-container">
+            <div class="combo_entrada pb_4">
+                <label for="username">Nombre de usuario:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="combo_entrada ">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+        </div>
+        <div class="combo_entrada" style="padding: 4px;    ">
+            <input type="submit" value="Entrar">
+        </div>
+    </form>
+    <script src="cookies.js"></script>
+    <script src="index.js"></script>
+    <script src="utils.js" defer></script>
+
+</body>
+
+</html>
